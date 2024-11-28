@@ -4,6 +4,7 @@ to input a specific date and time. It calculates whether
 the deadline has already passed, is happening today, or
 how many days remain until the deadline.
 """
+
 from datetime import datetime
 def compare_dates(user_date):
     cur_time=datetime.now()
@@ -19,7 +20,6 @@ def compare_dates(user_date):
     else:
         message="the Dealine has Passed "
     return message
-
 
 
 user_date=input("Enter the deadline (e.g 2024-11-15 17:00")
